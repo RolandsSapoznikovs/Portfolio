@@ -10,8 +10,15 @@
     <h1> Hello World </h1>
     
     <?php
-    $color = "Green";
-    echo "More Testing Even More" . $color . "<br>";
+    function myTest() {
+        static $x = 0;
+        echo $x;
+        $x++;
+      }
+      
+      myTest();
+      myTest();
+      myTest();
     ?>
 </body>
 </html>
