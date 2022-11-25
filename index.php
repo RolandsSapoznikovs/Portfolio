@@ -8,8 +8,10 @@
 </head>
 <body>
     <h1> Hello World </h1>
+    
     <?php
-    echo "More Testing Even More"
+    $color = "Green";
+    echo "More Testing Even More" . $color . "<br>";
     ?>
 </body>
 </html>
