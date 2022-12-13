@@ -24,7 +24,7 @@
         <button type="submit">GET</button>
         <button type="submit" formmethod="post">POST</button>
     </form>
-    <?php include('Request.php');
+    <?php include('src/Request.php');
     
     $NewRequest = new Request();
     $NewRequest->GetOrPost();
