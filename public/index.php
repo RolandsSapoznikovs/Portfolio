@@ -4,12 +4,12 @@ require 'C:/laragon/www/Portfolio/controllers/IndexController.php';
 require 'C:/laragon/www/Portfolio/controllers/RegisterController.php';
 if (!isset($_GET['controller']))
 {
-    $controllerName = 'controllers\\IndexController';
+    $controllerName = 'C:/laragon/www/Portfolio/controllers\\IndexController';
     $action         = 'indexAction';
 }
 else
 {
-    $controllerName     = 'controllers\\' . ucfirst($_GET['controller']) . 'Controller';
+    $controllerName     = 'C:/laragon/www/Portfolio/controllers\\' . ucfirst($_GET['controller']) . 'Controller';
     $action             = $_GET['action'] . 'Action';
 }
 $controller = new $controllerName();
