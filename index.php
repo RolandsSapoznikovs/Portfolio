@@ -6,12 +6,29 @@
         .header{
             height: 50px;
             background-color: black;
-            color: white;   
+            color: white;  
+            text-align: center;
+            font-size: 30px; 
         }
 
     </style>
 </head>
 <body>
+
    <div class="header">My Portfolio</div>
+    <form action="<?php echo $_SERVER["PHP_SELF"] ?>"></form>
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" name="firstname">
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname">
+        <button type="submit" formmethod="get">GET</button>
+        <button type="submit" formmethod="post">POST</button>
+    </form>
+    <?php include('Request.php');
+    
+    $NewRequest = new Request();
+    $NewRequest->GetOrPost();
+    
+    ?>
 </body>
 </html>
