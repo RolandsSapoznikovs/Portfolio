@@ -14,7 +14,7 @@ class RegisterController
     public function UserRegistrated()
     {
         $model = new RegisterModel($_POST['FirstName'], $_POST['LastName'], $_POST['Email']);
-        $model->Register();
+        $model->ReturnData();
         $RegisterOutput = $model->getRegisterOutput();
         require('Portfolio/views/RegisterOutput.phtml');
     }
