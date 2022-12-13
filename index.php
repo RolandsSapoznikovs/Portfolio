@@ -25,7 +25,7 @@ print_r($_GET);
         <input type="text" id="firstname" name="firstname">
         <label for="lastname">Last Name: </label>
         <input type="text" id="lastname" name="lastname">
-        <button type="submit" formmethod="get">GET</button>
+        <button type="submit">GET</button>
         <button type="submit" formmethod="post">POST</button>
     </form>
     <?php /* include('Request.php');
