@@ -28,10 +28,10 @@ print_r($_GET);
         <button type="submit">GET</button>
         <button type="submit" formmethod="post">POST</button>
     </form>
-    <?php /* include('Request.php');
+    <?php include('Request.php');
     
     $NewRequest = new Request();
-    $NewRequest->GetOrPost(); */
+    $NewRequest->GetOrPost();
     
     ?>
 </body>
