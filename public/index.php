@@ -1,7 +1,7 @@
 <?php
 chdir(dirname(__DIR__));
 require 'C:/laragon/www/Portfolio/controllers/IndexController.php';
-require 'Portfolio/controllers/RegisterController.php';
+require 'C:/laragon/www/Portfolio/controllers/RegisterController.php';
 if (!isset($_GET['controller']))
 {
     $controllerName = 'controllers\\IndexController';
