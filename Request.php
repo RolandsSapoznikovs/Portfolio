@@ -7,12 +7,12 @@ class Request
         if($_SERVER['REQUEST_METHOD'] === 'POST')
         {
             echo("That was a POST request"."<br>");
-            print_r($_POST."<br>");
+            echo print_r($_POST)."<br>";
         }
         else
         {
             echo ("That was a GET request"."<br>");
-            print_r($_GET."<br>");
+            echo print_r($_GET)."br";
         }
     }
 
