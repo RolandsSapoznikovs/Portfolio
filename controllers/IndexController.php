@@ -3,7 +3,7 @@
     {
         public function indexAction()
         {
-            require 'Portfolio/views/index.phtml';
+            require 'C:/laragon/www/Portfolio/views/index.phtml';
         }
     }
 ?>

@@ -1,14 +1,14 @@
 <?php
 use models\RegisterModel;
 
-require('Portfolio/models/RegisterModel.php');
+require('C:/laragon/www/Portfolio/models/RegisterModel.php');
 
 class RegisterController
 {
     public function Register()
     {
         $action = 'Register';
-        require 'Portfolio/views/Register.phtml';
+        require 'C:/laragon/www/Portfolio/views/Register.phtml';
     }
 
     public function UserRegistrated()
@@ -16,7 +16,7 @@ class RegisterController
         $model = new RegisterModel($_POST['FirstName'], $_POST['LastName'], $_POST['Email']);
         $model->ReturnData();
         $RegisterOutput = $model->getRegisterOutput();
-        require('Portfolio/views/RegisterOutput.phtml');
+        require('C:/laragon/www/Portfolio/views/RegisterOutput.phtml');
     }
 }
 
