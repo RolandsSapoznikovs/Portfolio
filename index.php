@@ -24,10 +24,12 @@
         <button type="submit" formmethod="get">GET</button>
         <button type="submit" formmethod="post">POST</button>
     </form>
-    <?php include('Request.php');
+    <?php /* include('Request.php');
     
     $NewRequest = new Request();
-    $NewRequest->GetOrPost();
+    $NewRequest->GetOrPost(); */
+
+    print_r($_GET)
     
     ?>
 </body>
