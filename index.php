@@ -16,7 +16,7 @@
 <body>
 
    <div class="header">My Portfolio</div>
-    <form action="<?php echo $_SERVER["PHP_SELF"] ?>"></form>
+    <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="get"></form>
         <label for="firstname">First Name: </label>
         <input type="text" id="firstname" name="firstname">
         <label for="lastname">Last Name: </label>
