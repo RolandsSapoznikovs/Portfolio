@@ -1,7 +1,3 @@
-<?php
-print_r($_GET);
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,6 +28,7 @@ print_r($_GET);
     
     $NewRequest = new Request();
     $NewRequest->GetOrPost();
+    $NewRequest->RequestedURI();
     
     ?>
 </body>
