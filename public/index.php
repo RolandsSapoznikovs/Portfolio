@@ -12,6 +12,4 @@ else
     $controllerName     = 'C:\laragon\www\Portfolio\controllers\\' . ucfirst($_GET['controller']) . 'Controller';
     $action             = $_GET['action'] . 'Action';
 }
-$controller = new $controllerName();
-$controller->$action();
 ?>
