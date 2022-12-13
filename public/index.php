@@ -1,6 +1,6 @@
 <?php
 chdir(dirname(__DIR__));
-require 'Portfolio/controllers/IndexController.php';
+require 'C:/laragon/www/Portfolio/controllers/IndexController.php';
 require 'Portfolio/controllers/RegisterController.php';
 if (!isset($_GET['controller']))
 {
