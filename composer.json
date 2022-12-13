@@ -1,0 +1,15 @@
+{
+    "name": "rolands/portfolio",
+    "autoload": {
+        "psr-4": {
+            "Rolands\\Portfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rolands",
+            "email": "rolands_sapoznikovs@inbox.lv"
+        }
+    ],
+    "require": {}
+}
