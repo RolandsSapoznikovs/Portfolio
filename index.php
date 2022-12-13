@@ -29,6 +29,7 @@
     $NewRequest = new Request();
     $NewRequest->GetOrPost();
     $NewRequest->RequestedURI();
+    $NewRequest->RequestParametrs();
     
     ?>
 </body>
