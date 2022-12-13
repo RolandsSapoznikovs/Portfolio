@@ -1,3 +1,7 @@
+<?php
+print_r($_GET);
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,8 +32,6 @@
     
     $NewRequest = new Request();
     $NewRequest->GetOrPost(); */
-
-    print_r($_GET)
     
     ?>
 </body>
