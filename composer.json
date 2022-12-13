@@ -11,5 +11,12 @@
             "email": "rolands_sapoznikovs@inbox.lv"
         }
     ],
-    "require": {}
+
+    "config": {
+        "vendor-dir": "composer_vendor"
+    },
+    
+    "require": {
+        "erusev/parsedown": "~1.0"
+    }
 }
