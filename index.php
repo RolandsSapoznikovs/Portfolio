@@ -2,7 +2,14 @@
 <html>
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.php">
+    <style type="text/css">
+        .header{
+            height: 50px;
+            background-color: black;
+            color: white;   
+        }
+
+    </style>
 </head>
 <body>
    <div class="header">My Portfolio</div>
