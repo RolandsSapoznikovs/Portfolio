@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.php">
 </head>
 <body>
    <div class="header">My Portfolio</div>
