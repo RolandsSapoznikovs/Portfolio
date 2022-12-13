@@ -26,10 +26,17 @@ class Request
 
     public function RequestParametrs()
     {
-        $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-        $url_components = parse_url($url);
-        parse_str($url_components['query'], $params);
-        echo ('Firstname: ' . $params['firstname'] . 'Lastname: ' . $params['lastname']);
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') 
+        {
+            $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $url_components = parse_url($url);
+            parse_str($url_components['query'], $params);
+            echo ('Firstname: ' . $params['firstname'] . 'Lastname: ' . $params['lastname']);
+        }
+        else
+        {
+            echo ('No parametrs');
+        }
     }
 }
 
